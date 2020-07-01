@@ -81,7 +81,7 @@ const SignUp: React.FC = () => {
           })
           .catch((err) => {
             console.log(`${err}`);
-            console.log(response.uri);
+            // console.log(response.uri);
           });
       },
     );
